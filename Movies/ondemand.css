@@ -1,0 +1,107 @@
+body,html{
+	height: 100%;
+	margin: 0;
+	padding: 10px 80px 10px 80px;
+	background-color: black;
+	font-family: Arial;
+}
+.tablink{
+	background-color: #555;
+	color: white;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 20px 17px;
+	font-size:17px ;
+	width: 25%;
+}
+.tablink:hover{
+	background-color: #777;
+}
+.tabcontent{
+	color: white;
+	display: none;
+	padding: 50px 20px;
+	height: 100%;
+}
+#Action{background-color: black}
+#Adventure{background-color: black}
+#Comedy{background-color: black}
+#Fantasy{background-color: black}
+#Family{background-color: black}
+#Romance{background-color: black}
+#Mystrey{background-color: black}
+#Thriller{background-color: black}
+
+.header {
+  padding-bottom: 20px;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  background:black ;
+  color: white;
+  font-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color:black;
+  padding: 10px;
+}
+
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: black;
+  border: red;
+  border-style: outline;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+a:link {
+  text-decoration: none;
+}
+
+img {
+  width:200px;
+  height: 300px;
+  
+}
+
+.image {
+  flex-basis: 40%
+}
